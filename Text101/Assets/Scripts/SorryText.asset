@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c01fc974e31096d4b9ce83bb10694df5, type: 3}
+  m_Name: SorryText
+  m_EditorClassIdentifier: 
+  storyText: 'Ti svegli in una stanza da solo, in una casa enorme probabilmente infestata.
+    Per cominciare scegli cosa fare:
+
+
+
+    1. Vai a cercare materiale per uscire
+
+    2.
+    Esplora la casa ed esamina le uscite'
+  nextStates:
+  - {fileID: 11400000, guid: c1ec9ad1cfd2d4a4798a8117bf057c4d, type: 2}
+  - {fileID: 11400000, guid: d942e49127aac704b94d71b46a3efdaa, type: 2}
